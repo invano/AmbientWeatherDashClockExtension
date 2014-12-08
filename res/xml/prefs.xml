@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <PreferenceCategory android:title="@string/pref_on_top" >
+    	<CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefHumidityOnTop"
+            android:summary="@string/pref_on_top_humidity_summary_no"
+            android:title="@string/pref_on_top_humidity_title" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_temperature_settings" >    
+    	<ListPreference
+    	 	android:entries="@array/tempScale"
+     		android:entryValues="@array/tempScaleUnit"
+     		android:key="prefTempUnit"
+     		android:summary="@string/pref_temperature_unit_summary"
+     		android:title="@string/pref_temperature_unit_title" />
+    	<ListPreference
+    	 	android:entries="@array/digits"
+     		android:entryValues="@array/digitsValue"
+     		android:key="prefTempDigit"
+     		android:summary="@string/pref_digits_summary"
+     		android:title="@string/pref_digits_title" />
+		</PreferenceCategory>
+		<PreferenceCategory android:title="@string/pref_humidity_settings" >    
+    	<ListPreference
+    	 	android:entries="@array/digits"
+     		android:entryValues="@array/digitsValue"
+     		android:key="prefHumidityDigit"
+     		android:summary="@string/pref_digits_summary"
+     		android:title="@string/pref_digits_title" />
+		</PreferenceCategory>
+		<PreferenceCategory android:title="@string/pref_pressure_settings" >    
+    	<ListPreference
+    	 	android:entries="@array/digits"
+     		android:entryValues="@array/digitsValue"
+     		android:key="prefPressionDigit"
+     		android:summary="@string/pref_digits_summary"
+     		android:title="@string/pref_digits_title" />
+		</PreferenceCategory>
+	<PreferenceCategory android:title="@string/pref_about" >    
+    	<Preference
+    		android:key="version"
+    		android:title="@string/extension_title"
+    		android:summary="@string/pref_about_summary"/>
+    	<Preference
+    		android:key="report"
+    		android:title="@string/pref_report_title"
+    		android:summary="@string/pref_report_summary"/>
+    	<Preference
+    		android:key="developer"
+    		android:icon="@drawable/ic_me"
+    		android:title="@string/pref_developer_title"
+    		android:summary="@string/pref_developer_summary"/>
+    	</PreferenceCategory>
+</PreferenceScreen>

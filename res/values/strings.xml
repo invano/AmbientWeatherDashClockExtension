@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Ambient Weather DashClock Extension </string>
+    <string name="extension_title">Ambient Weather</string>
+    <string name="extension_description">Displays the ambient temperature, relative humidity and pressure retrieved by the built-in sensors</string>
+    <string name="pref_temperature_settings">Temperature Settings</string>
+    <string name="pref_humidity_settings">Humidity Settings</string>
+    <string name="pref_pressure_settings">Pressure Settings</string>
+    <string name="pref_name_default">John Smith</string>
+    <string name="title_settings">Ambient Weather Settings</string>
+    <string name="pref_on_top">On top</string>
+    <string name="pref_on_top_humidity_title">Set Relative Humidity as on top</string>
+    <string name="pref_on_top_humidity_summary_yes">Relative Humidity is on top</string>
+    <string name="pref_on_top_humidity_summary_no">Temperature is on top</string>
+    <string name="pref_temperature_unit_summary">Temperature scale conversion</string>
+    <string name="pref_temperature_unit_title">Unity of measurement</string>
+    <string name="pref_about">About</string>
+    <string name="pref_developer_title">Developer</string>
+    <string name="pref_developer_summary">Emanuele Cozzi</string>
+    <string name="pref_about_summary">version 1.0</string>
+    <string name="pref_report_title">Report</string>
+    <string name="pref_report_summary">bugs or suggestions</string>
+    <string name="pref_digits_summary">.1</string>
+    <string name="pref_digits_title">Precision after comma</string>
+    <string name="pref_constant_offset_temp_summary">Temperature offset</string>
+    <string name="pref_constant_offset_hum_summary">Relative humidity offset</string>
+    <string name="pref_constant_offset_pres_summary">Pressure offset</string>
+    <string name="pref_constant_offset_title">Constant offset</string>
+        
+</resources>
