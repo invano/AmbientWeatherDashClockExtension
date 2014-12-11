@@ -113,7 +113,7 @@ public class AmbientWeatherExtension extends DashClockExtension {
                 .icon(R.drawable.ic_ambientweather_extension)
                 .status(humidityOnTop ? String.format(mHumidityDigits, mHumidityValue) + "%" : String.format(mTempDigits, mTempValue) + "??" + tempUnit)
                 .expandedTitle(humidityOnTop ? 
-                		"Relative humidity " + String.format(mHumidityDigits, mHumidityValue) + "%" : "Temperature " + String.format(mTempDigits, mTempValue) + "??" + tempUnit)
+                		"Relative humidity " + String.format(mHumidityDigits, mHumidityValue) + "%" : "Temperature " + String.format(mTempDigits, mTempValue) + "°" + tempUnit)
                 .expandedBody((humidityOnTop ? "Temperature " + String.format(mTempDigits, mTempValue) + "??" + tempUnit : "Relative humidity " + String.format(mHumidityDigits, mHumidityValue) + "%") + 
                 		"\nPressure " + String.format(mPressureDigits, mPressureValue) + " hPa")
 //                .contentDescription("Completely different text for accessibility if needed.")
